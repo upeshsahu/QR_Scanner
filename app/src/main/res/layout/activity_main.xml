@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context="com.example.upesh.qr_scanner.MainActivity">
+
+
+        
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="match_parent"
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_height="250dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textViewAddress"
+        android:layout_marginTop="50dp"
+        android:background="#B2EBF2"
+        android:text="Scan QR Code" />
+
+</RelativeLayout>
